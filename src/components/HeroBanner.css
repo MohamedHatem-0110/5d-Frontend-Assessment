@@ -1,0 +1,69 @@
+.intro-name {
+  font-family: Poppins;
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 100.8px;
+  text-align: left;
+  margin-top: 78px;
+  width: 648px;
+  padding-top: 30px;
+  color: #1b1c37;
+}
+.hero-container {
+  margin-top: 70px;
+}
+.name-container {
+  position: relative;
+}
+.highlight {
+  position: absolute;
+  top: 0px;
+  left: 331px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.user-biography {
+  margin-top: 55px;
+  width: 375px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: left;
+}
+
+.hero-contact-button {
+  margin-top: 56px;
+  width: Hug (286px);
+  height: Hug (68px);
+  padding: 16px 50px 16px 50px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #b224ef 0%, #7579ff 100%);
+
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-background {
+  width: 959px;
+  height: 621px;
+  top: 240px;
+  left: 601px;
+  position: absolute;
+  overflow-x: hidden;
+}
+
+.arrow {
+  width: 187px;
+  height: 187px;
+  top: 600px;
+  left: 450px;
+  padding: 33.74px 0px 34.13px 0px;
+  position: absolute;
+}
