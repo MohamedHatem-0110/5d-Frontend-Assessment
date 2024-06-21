@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 import HeroBanner from "./components/HeroBanner";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
@@ -17,6 +18,7 @@ function App() {
       </div>
       <AboutMe />
       <Portfolio />
+      <Footer />
     </>
   );
 }

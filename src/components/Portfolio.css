@@ -32,6 +32,7 @@
 .work {
   width: 518px;
   height: 397px;
+  padding-bottom: 20px;
   position: relative;
   display: flex;
   justify-content: center;
