@@ -11,6 +11,7 @@
 }
 .hero-container {
   margin-top: 70px;
+  position: relative;
 }
 .name-container {
   position: relative;
@@ -50,20 +51,28 @@
   gap: 10px;
 }
 
-.hero-background {
-  width: 959px;
-  height: 621px;
-  top: 240px;
-  left: 601px;
+.hero-background-container {
+  display: flex;
+  justify-content: end;
   position: absolute;
-  overflow-x: hidden;
+  height: 621px;
+  width: 100%;
+  /* margin-right: 50px; */
+}
+
+.hero-background {
+  /* top: 240px; */
+  /* left: 601px; */
+
+  /* overflow-x: hidden; */
+  z-index: -1;
 }
 
 .arrow {
   width: 187px;
   height: 187px;
-  top: 600px;
-  left: 450px;
-  padding: 33.74px 0px 34.13px 0px;
+  top: 400px;
+  left: 300px;
+  /* padding: 33.74px 0px 34.13px 0px; */
   position: absolute;
 }

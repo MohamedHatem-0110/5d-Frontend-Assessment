@@ -4,6 +4,13 @@ import "./HeroBanner.css";
 const HeroBanner = () => {
   return (
     <div className="hero-container">
+      <div className="hero-background-container">
+        <img
+          className="hero-background"
+          src="/public/assets/Allura UI Windows.png"
+          alt=""
+        />
+      </div>
       <div>
         <div className="name-container">
           <div className="intro-name">Hi, I am Hassan 🎨</div>
@@ -25,13 +32,7 @@ const HeroBanner = () => {
           <img src="/public/assets/arrow-circle-right.svg" alt="" />
         </button>
       </div>
-      <div>
-        <img
-          className="hero-background"
-          src="/public/assets/Allura UI Windows.png"
-          alt=""
-        />
-      </div>
+
       <img className="arrow" src="/public/assets/Arrow_01.svg" alt="" />
     </div>
   );

@@ -2,6 +2,16 @@
   margin-top: 99px;
 }
 .app {
-  margin-left: 100px;
-  margin-right: 100px;
+  padding: 0px 100px;
+}
+
+.title-text {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 67.2px;
+  text-align: left;
+  background: linear-gradient(90deg, #b224ef 0%, #7579ff 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  align-self: flex-end;
 }
