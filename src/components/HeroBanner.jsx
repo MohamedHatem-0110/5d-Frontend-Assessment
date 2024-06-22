@@ -7,7 +7,7 @@ const HeroBanner = () => {
       <div className="hero-background-container">
         <img
           className="hero-background"
-          src="/public/assets/Allura UI Windows.png"
+          src="assets/Allura UI Windows.png"
           alt=""
         />
       </div>
