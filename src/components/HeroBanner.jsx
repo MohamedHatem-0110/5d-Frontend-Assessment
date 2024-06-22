@@ -14,11 +14,7 @@ const HeroBanner = () => {
       <div className="hero-info-container">
         <div className="name-container">
           <div className="intro-name">Hi, I am Hassan 🎨</div>
-          <img
-            className="highlight"
-            src="/public/assets/Highlight.svg"
-            alt=""
-          />
+          <img className="highlight" src="assets/Highlight.svg" alt="" />
         </div>
         <p className="user-biography">
           I am a UI/UX Designer, I like to make interfaces simple and
