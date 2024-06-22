@@ -29,11 +29,11 @@ const HeroBanner = () => {
 
         <button className="hero-contact-button">
           Contact Me!
-          <img src="/public/assets/arrow-circle-right.svg" alt="" />
+          <img src="assets/arrow-circle-right.svg" alt="" />
         </button>
       </div>
 
-      <img className="arrow" src="/public/assets/Arrow_01.svg" alt="" />
+      <img className="arrow" src="assets/Arrow_01.svg" alt="" />
     </div>
   );
 };
