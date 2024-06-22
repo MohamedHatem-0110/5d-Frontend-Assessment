@@ -1,0 +1,10 @@
+.effect {
+  position: absolute;
+}
+.navbar-ellipse {
+  z-index: -1;
+  right: 49px;
+}
+.hero-ellipse {
+  top: 238px;
+}

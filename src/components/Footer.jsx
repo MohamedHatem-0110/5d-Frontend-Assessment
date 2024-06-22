@@ -9,7 +9,7 @@ const Footer = () => {
         <img src="assets/linkedin.svg" alt="" />
         <img src="assets/twitter.svg" alt="" />
       </div>
-      <div className="copyright-text">&copy; All Rights Reserved</div>
+      <div className="copyright-text">Hassan Abu Ali &copy; 2022</div>
     </div>
   );
 };

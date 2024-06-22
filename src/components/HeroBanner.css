@@ -76,3 +76,14 @@
   /* padding: 33.74px 0px 34.13px 0px; */
   position: absolute;
 }
+
+.hero-info-container {
+  position: relative;
+  top: 78px;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-background {
+    display: none;
+  }
+}

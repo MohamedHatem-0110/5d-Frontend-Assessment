@@ -26,6 +26,9 @@ const Portfolio = () => {
           alt=""
         />
       </div>
+
+      <div className="margin"></div>
+
       <div className="gray-line"></div>
 
       <div className="work-container">

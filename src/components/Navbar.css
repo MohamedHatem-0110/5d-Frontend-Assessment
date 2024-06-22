@@ -78,3 +78,37 @@
   border-bottom: #7579ff solid 4.33px;
   border-radius: 2px;
 }
+
+.menu {
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  display: none;
+}
+.first-line {
+  width: 32px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 2px;
+}
+.second-line {
+  width: 16.84px;
+  border-radius: 2px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width: 900px) {
+  .header-list,
+  .contact-button {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 937px) {
+  .navbar-container {
+    padding: 0px 31.5px 0px 29px;
+  }
+}

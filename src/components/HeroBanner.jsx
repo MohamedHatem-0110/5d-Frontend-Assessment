@@ -11,7 +11,7 @@ const HeroBanner = () => {
           alt=""
         />
       </div>
-      <div>
+      <div className="hero-info-container">
         <div className="name-container">
           <div className="intro-name">Hi, I am Hassan 🎨</div>
           <img

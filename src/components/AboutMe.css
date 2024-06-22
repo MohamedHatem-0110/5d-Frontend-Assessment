@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  height: 1071px;
+  height: 782px;
 }
 .background-image {
   z-index: -1;
@@ -27,15 +27,17 @@
 
 .middle-container {
   margin-top: 274px;
+  width: 100%;
 }
 
 .traits-container {
-  width: 1198.96px;
-  height: 363px;
   border-radius: 60px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
+  margin-left: 157px;
+  margin-right: 157px;
+  padding: 40px 122.48px 60px 122.48px;
 }
 .traits-container .percentage {
   font-size: 64px;
@@ -46,7 +48,6 @@
   color: rgba(27, 28, 55, 1);
 }
 .traits-container .trait {
-  font-family: Poppins;
   font-size: 36px;
   font-weight: 600;
   line-height: 37.8px;
@@ -59,14 +60,6 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin-top: 40px;
-}
-
-.traits-container .left-trait {
-  margin-left: 122.48px;
-}
-.traits-container .right-trait {
-  margin-right: 122.48px;
 }
 
 .small-container img {
@@ -79,7 +72,7 @@
   width: 324px;
   height: 443px;
   top: 243px;
-  left: 50%; /* Position the left edge of the element in the middle of the container */
+  left: 50%;
   transform: translateX(-50%);
   border-radius: 60px;
   background: linear-gradient(90deg, #b224ef 0%, #7579ff 100%);
@@ -87,10 +80,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+
   overflow: hidden;
 }
 .ethnicity-percentage {
+  margin-top: 198px;
   font-size: 64px;
   font-weight: 700;
   line-height: 67.2px;
@@ -98,23 +92,14 @@
   color: white;
 }
 .ethnicity-title {
-  font-family: Poppins;
   font-size: 36px;
   font-weight: 600;
   line-height: 37.8px;
   text-align: left;
   color: white;
 }
-.vector-images {
-  position: relative;
-}
-.vector-images .vector9,
-.vector-images .vector8 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.ethinicity-text {
+
+.ethnicity-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -126,4 +111,68 @@
   position: relative;
   width: 100%;
   height: 680.6px;
+}
+
+.mask-group {
+  width: 324px;
+  height: 223px;
+  position: absolute;
+}
+
+.tablet-background {
+  display: none;
+  height: 710.74px;
+}
+
+@media only screen and (max-width: 1245px) {
+  .ethnicity-container {
+    width: 182.64px;
+    height: 249.3px;
+    border-radius: 33.82px;
+    top: 197px;
+  }
+  .ethnicity-container img {
+    width: 182.64px;
+    height: 125.7px;
+  }
+  .ethnicity-percentage {
+    font-size: 36.08px;
+    margin-top: 111px;
+  }
+  .ethnicity-title {
+    font-size: 20.29px;
+    font-weight: 600;
+    line-height: 21.31px;
+    text-align: left;
+  }
+  .ethnicity-text {
+    gap: 11px;
+  }
+  .traits-container {
+    padding: 22.55px 68px 33.82px 68px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .traits-container .trait-container {
+    gap: 11px;
+    align-items: center;
+  }
+  .trait-container img {
+    width: 66.52px;
+    height: 66.52px;
+  }
+  .trait-container .percentage {
+    font-size: 36.08px;
+    text-align: center;
+  }
+  .trait-container .trait {
+    font-size: 20.29px;
+  }
+  .middle-container {
+    margin-top: 140px;
+  }
+  .desktop-background {
+    height: 710.74px;
+  }
 }

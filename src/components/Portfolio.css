@@ -19,8 +19,7 @@
 }
 
 .portfolio .gray-line {
-  margin-top: 56px;
-  margin-bottom: 45px;
+  margin: 56px 50px 45px 50px;
 }
 
 .work-container {
@@ -75,4 +74,9 @@
 }
 .margin-container {
   margin-bottom: 126px;
+}
+
+.margin-container .margin {
+  margin-bottom: 50px;
+  height: 1px;
 }

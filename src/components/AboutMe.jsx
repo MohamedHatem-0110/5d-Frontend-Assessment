@@ -3,7 +3,11 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <div className="about-me-container">
-      <img className="background-image" src="assets/Vector 2.png" alt="" />
+      <img
+        className="background-image desktop-background"
+        src="assets/Vector 2.png"
+        alt=""
+      />
       <img
         className="background-image"
         src="assets/Vector-Cuadros.png"
@@ -12,24 +16,21 @@ const AboutMe = () => {
       <div className="about-me-title">About Me</div>
 
       <div className="ethnicity-container">
-        <div className="vector-images">
-          <img src="assets/Vector 10.svg" alt="" />
-          <img className="vector9" src="assets/Vector 9.svg" alt="" />
-          <img className="vector8" src="assets/Vector 8.svg" alt="" />
-        </div>
-        <div className="ethinicity-text">
+        <img className="mask-group" src="assets/Mask group.png" alt="" />
+
+        <div className="ethnicity-text">
           <div className="ethnicity-percentage">100%</div>
           <div className="ethnicity-title">Colombian</div>
         </div>
       </div>
       <div className="middle-container">
         <div className="traits-container">
-          <div className="trait-container left-trait">
+          <div className="trait-container">
             <img src="assets/Icono.svg" alt="" />
             <div className="percentage">100%</div>
             <div className="trait">Responsibilty</div>
           </div>
-          <div className="trait-container right-trait">
+          <div className="trait-container">
             <img src="assets/Icono2.svg" alt="" />
             <div className="percentage">100%</div>
             <div className="trait">Punctuality</div>

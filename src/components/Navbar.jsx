@@ -16,6 +16,10 @@ const Navbar = () => {
         <li>Blog</li>
       </ul>
       <button className="contact-button">Contact Me</button>
+      <div className="menu">
+        <div className="first-line"></div>
+        <div className="second-line"></div>
+      </div>
     </div>
   );
 };
