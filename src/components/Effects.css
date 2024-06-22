@@ -8,3 +8,26 @@
 .hero-ellipse {
   top: 238px;
 }
+.skill-ellipse {
+  top: 1000px;
+  right: 0;
+}
+.hero-dots {
+  top: 203px;
+  right: 0px;
+}
+
+@media only screen and (max-width: 834px) {
+  .hero-dots,
+  .dots-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-ellipse,
+  .hero-ellipse,
+  .skill-ellipse {
+    display: none;
+  }
+}

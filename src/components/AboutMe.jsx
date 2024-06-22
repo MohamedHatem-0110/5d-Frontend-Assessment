@@ -24,6 +24,28 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="middle-container">
+        <img
+          className="effect about-highlight"
+          src="assets/Highlight_04.svg"
+          alt=""
+        />
+        <img
+          className="effect about-dots-1"
+          src="assets/dots about1.svg"
+          alt=""
+        />
+        <img
+          className="effect about-dots-2"
+          src="assets/dots about2.svg"
+          alt=""
+        />
+        <img className="effect dots-full-1" src="assets/dots full.svg" alt="" />
+        <img className="effect dots-full-2" src="assets/dots full.svg" alt="" />
+        <img
+          className="effect about-ellipse"
+          src="assets/Ellipse 39.svg"
+          alt=""
+        />
         <div className="traits-container">
           <div className="trait-container">
             <img src="assets/Icono.svg" alt="" />

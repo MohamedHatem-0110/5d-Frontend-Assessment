@@ -3,6 +3,8 @@
   background-color: #edeeff;
   border-radius: 60px 60px 0px 0px;
   padding-top: 39px;
+  position: relative;
+  overflow: hidden;
 }
 .icons {
   display: flex;
@@ -14,9 +16,46 @@
   height: 40px;
 }
 
+.dots-footer-1 {
+  bottom: 0;
+}
+.dots-footer-2 {
+  right: 0;
+}
+
 .copyright-text {
   margin-top: 49px;
   text-align: center;
-  font-weight: 500;
   color: #5f6073;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 429px) {
+  .footer {
+    height: 88px;
+    padding-top: 20px;
+    border-radius: 30.76px 30.76px 0px 0px;
+  }
+  .icons img {
+    width: 20px;
+    height: 20px;
+  }
+  .icons {
+    gap: 23px;
+  }
+  .copyright-text {
+    font-size: 14px;
+    margin-top: 11.54px;
+  }
+  .dots-footer-1 {
+    bottom: 0;
+    width: 65.62px;
+    height: 32.34px;
+  }
+  .dots-footer-2 {
+    top: 20px;
+    right: -20px;
+    width: 65.62px;
+    height: 32.34px;
+  }
 }

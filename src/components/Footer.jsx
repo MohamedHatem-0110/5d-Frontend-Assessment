@@ -3,6 +3,16 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
+      <img
+        className="effect dots-footer-1"
+        src="assets/dots footer1.svg"
+        alt=""
+      />
+      <img
+        className="effect dots-footer-2"
+        src="assets/dots footer2.svg"
+        alt=""
+      />
       <div className="icons">
         <img src="assets/instagram.svg" alt="" />
         <img src="assets/facebook.svg" alt="" />

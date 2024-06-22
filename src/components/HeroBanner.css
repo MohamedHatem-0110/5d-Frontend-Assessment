@@ -1,5 +1,4 @@
 .intro-name {
-  font-family: Poppins;
   font-size: 96px;
   font-weight: 600;
   line-height: 100.8px;
@@ -35,9 +34,9 @@
 
 .hero-contact-button {
   margin-top: 56px;
-  width: Hug (286px);
-  height: Hug (68px);
-  padding: 16px 50px 16px 50px;
+  width: 286px;
+  height: 68px;
+  justify-content: center;
   border-radius: 16px;
   background: linear-gradient(90deg, #b224ef 0%, #7579ff 100%);
 
@@ -57,22 +56,17 @@
   position: absolute;
   height: 621px;
   width: 100%;
-  /* margin-right: 50px; */
 }
 
 .hero-background {
-  /* top: 240px; */
-  /* left: 601px; */
-
-  /* overflow-x: hidden; */
   z-index: -1;
 }
 
 .arrow {
   width: 187px;
   height: 187px;
-  top: 400px;
-  left: 300px;
+  top: 480px;
+  left: 320px;
   /* padding: 33.74px 0px 34.13px 0px; */
   position: absolute;
 }
@@ -85,5 +79,53 @@
 @media only screen and (max-width: 900px) {
   .hero-background {
     display: none;
+  }
+  .hero-background-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  .intro-name {
+    font-size: 55.21px;
+  }
+  .hero-container {
+    margin-top: 0px;
+    height: 100%;
+  }
+  .hero-info-container {
+    top: 0px;
+    padding-left: 10px;
+  }
+  .intro-name {
+    width: 372.66px;
+    padding: 0px;
+    margin-top: 62.8px;
+    line-height: 57.97px;
+  }
+  .arrow {
+    width: 138px;
+    height: 138px;
+
+    top: 300px;
+    left: 180px;
+  }
+
+  .hero-contact-button {
+    width: 164.21px;
+    height: 39.4px;
+    border-radius: 9.2px;
+    font-size: 13.8px;
+    line-height: 20.7px;
+  }
+  .hero-contact-button img {
+    width: 14.95px;
+    height: 14.95px;
+  }
+  .highlight {
+    width: 38.55px;
+    height: 42.23px;
+    left: 190px;
+    top: -17px;
   }
 }

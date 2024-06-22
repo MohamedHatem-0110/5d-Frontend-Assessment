@@ -1,5 +1,6 @@
 .skill-container {
   margin-top: 184px;
+  position: relative;
 }
 
 .skill-title {
@@ -21,15 +22,9 @@
 
 .skills {
   margin-left: 26px;
-  /* display: grid;
+  display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: normal; */
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  gap: 126px;
-  max-width: 1258px;
 }
 
 .skill {
@@ -65,4 +60,65 @@
   font-weight: 400;
   text-align: center;
   padding: 20px;
+}
+
+.dots-skill {
+  top: 69px;
+  left: -98px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .skills {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .skill-title .title-text {
+    font-size: 24px;
+    line-height: 25.2px;
+  }
+
+  .image-container img {
+    width: 85.02px;
+    height: 50.69px;
+  }
+  .skill-title {
+    width: 107.98px;
+    height: 58.15px;
+  }
+
+  .skills {
+    margin-left: 20px;
+  }
+
+  .skill,
+  .full-ellipse {
+    width: 119.9px;
+  }
+  .percentage-ellipse-container {
+    width: 119.9px;
+    width: 119.9px;
+  }
+  .percentage-ellipse-container img {
+    height: 119.9px;
+  }
+  .skill .percentage-text {
+    font-size: 19.62px;
+    top: 40px;
+    left: 40px;
+  }
+  .skill-name {
+    font-size: 13px;
+  }
+  .dots-skill {
+    top: 25px;
+    left: -70px;
+    width: 75.21px;
+    height: 37.07px;
+  }
+  .skill-container {
+    margin-left: 20px;
+  }
 }

@@ -4,8 +4,8 @@
 }
 
 .portfolio-title-text {
-  width: 270px;
-  height: 67px;
+  /* width: 270px;
+  height: 67px; */
   top: -70px;
   position: absolute;
 }
@@ -43,8 +43,8 @@
   position: absolute;
 }
 .work .upper-container img {
-  width: 418px;
-  height: 260px;
+  width: 100%;
+  height: 100%;
 }
 
 .work-info {
@@ -72,11 +72,77 @@
   text-align: left;
   color: rgba(95, 96, 115, 1);
 }
-.margin-container {
+.portfolio-margin-container {
   margin-bottom: 126px;
 }
 
-.margin-container .margin {
+.portfolio-margin-container .margin {
   margin-bottom: 50px;
   height: 1px;
+}
+
+@media only screen and (max-width: 1245px) {
+  .portfolio-margin-container {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  .portfolio {
+    margin: 0px 42px;
+  }
+  .portfolio-title-text {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 25.2px;
+    text-align: left;
+  }
+  .portfolio-underline {
+    position: relative;
+    left: 37px;
+
+    width: 67.62px;
+    height: 9.37px;
+  }
+  .margin {
+    display: none;
+  }
+  .gray-line {
+    margin: 15.5px 42px 18.33px 42px;
+  }
+  .work {
+    width: 211px;
+    height: 161.71px;
+    border: 0.41px;
+  }
+  .work .upper-container {
+    width: 169.89px;
+    height: 105.9px;
+    border-radius: 6.52px;
+  }
+  .work-info {
+    width: 211px;
+    height: 112.42px;
+    padding-left: 21.3px;
+    border-radius: 16.29px;
+  }
+  .work-name {
+    font-size: 10px;
+    line-height: 10.5px;
+    text-align: left;
+    margin-top: 71px;
+  }
+  .work-description {
+    font-size: 6px;
+    line-height: 6.3px;
+    text-align: left;
+  }
+  .work-container {
+    margin-left: 22.36px;
+    gap: 29.33px;
+  }
 }

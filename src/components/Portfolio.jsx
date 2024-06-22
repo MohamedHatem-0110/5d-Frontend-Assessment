@@ -17,7 +17,7 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div className="margin-container">
+    <div className="portfolio-margin-container">
       <div className="portfolio">
         <div className="portfolio-title-text title-text">Portfolio</div>
         <img

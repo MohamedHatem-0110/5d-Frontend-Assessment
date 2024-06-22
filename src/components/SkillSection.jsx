@@ -37,6 +37,7 @@ const SkillSection = () => {
   ];
   return (
     <div className="skill-container">
+      <img className="effect dots-skill" src="assets/dots skill.svg" alt="" />
       <div className="skill-title">
         <div className="title-text">Skills</div>
         <div className="image-container">
@@ -55,7 +56,11 @@ const SkillSection = () => {
                 alt=""
               />
             </div>
-            <img src="/assets/Ellipse Full.svg" alt="" />
+            <img
+              className="full-ellipse"
+              src="/assets/Ellipse Full.svg"
+              alt=""
+            />
 
             <div className="skill-name">{skill.name}</div>
           </div>
